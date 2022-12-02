@@ -1,0 +1,29 @@
+def big(n1,n2):
+    if n1>n2:
+        print(n1,'is big')
+    else:
+        print(n2,'is big')
+n1=int(input())
+n2=int(input())
+big(n1,n2)
+
+def big(n1,n2):
+    if n1>n2:
+        return n1
+    else:
+        return n2
+n1=int(input())
+n2=int(input())
+print(big(n1,n2))
+
+def big(n1,n2):
+    if n1>n2:
+        return True
+    else:
+        return False
+n1=int(input())
+n2=int(input())
+if(big(n1,n2)):
+    print(n1,'is big')
+else:
+    print(n2,'is big')
