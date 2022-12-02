@@ -1,0 +1,10 @@
+def elig(a,b):
+    print('Name:',a)
+    print('Age:',b)
+    if b>=18:
+        print('Eligible')
+    else:
+        print('Not Eligible')
+a=input()
+b=int(input())
+elig(a,b)
